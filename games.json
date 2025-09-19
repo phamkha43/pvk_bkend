@@ -12,20 +12,89 @@
     "category": "action",
     "iframe": "https://html5.gamedistribution.com/f2af2ecc05a445edb6862c589e996a7e/?gd_sdk_referrer_url=https://playgame.id.vn",
     "thumbnail": "images/Art Of Defense.jpg"
-  }, 
-{
+  },
+  {
     "id": "game3",
     "title": "Zombie Monster Survivors",
     "category": "action",
     "iframe": "https://html5.gamedistribution.com/105d61fde9324ffaac5d14f1769bdf1e/?gd_sdk_referrer_url=https://playgame.id.vn",
     "thumbnail": "images/Zombie Monster Survivors.jpg"
   },
-{   
+  {
     "id": "game4",
     "title": "Zombie Shooting King",
     "category": "action",
     "iframe": "https://html5.gamedistribution.com/505a6808388d4967a82e141f956bcc13/?gd_sdk_referrer_url=https://playgame.id.vn",
     "thumbnail": "images/Zombie Shooting King.jpg"
+  },
+  {
+    "id": "game5",
+    "title": "Ninja Obby Parkour",
+    "category": "Casual",
+    "iframe": "https://html5.gamedistribution.com/7366d797ba8649cd8381f587ddcb29de/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "Ninja Obby Parkour.jpg"
+  },
+  {
+    "id": "game6",
+    "title": "Stickman Kombat 2D",
+    "category": "Battle",
+    "iframe": "https://html5.gamedistribution.com/6d3928f393774157a7aed692f08ee011/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "Stickman Kombat 2D.jpg"
+  },
+  {
+    "id": "game7",
+    "title": "Chess Online",
+    "category": "Boardgames",
+    "iframe": "https://html5.gamedistribution.com/b80ebde6ee1b4adfaa96398a4261db80/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "Chess Online.jpg"
+  },
+  {
+    "id": "game8",
+    "title": "Commando Force 2",
+    "category": "Shooter",
+    "iframe": "https://html5.gamedistribution.com/7d0574417a0d4c158b4d6e381f1c4a3e/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "Commando Force 2.jpg"
+  },
+  {
+    "id": "game9",
+    "title": "Animal Royal",
+    "category": "Battle",
+    "iframe": "https://html5.gamedistribution.com/6529282c80f84c4c905380a86d778ee8/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "Animal Royal.jpg"
+  },
+  {
+    "id": "game10",
+    "title": "Match Fighter",
+    "category": "Battle",
+    "iframe": "https://html5.gamedistribution.com/56b5cb9b86014d5f8bf726ca5c4ff06e/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "Match Fighter.jpg"
+  },
+  {
+    "id": "game11",
+    "title": "Get To The Chopper",
+    "category": "Shooter",
+    "iframe": "https://html5.gamedistribution.com/32ba9ee1361648f2abf104bfa088ea3f/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "Get To The Chopper.jpg"
+  },
+  {
+    "id": "game12",
+    "title": "Tower Defense",
+    "category": "Adventure",
+    "iframe": "https://html5.gamedistribution.com/728008a5c29a4dc89c8549bec653fdc5/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "Tower Defense.jpg"
+  },
+  {
+    "id": "game13",
+    "title": "Zombie Redemption",
+    "category": "Battle",
+    "iframe": "https://html5.gamedistribution.com/60fe1469f0cd4b4a8de22879939d5db7/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "Zombie Redemption.jpg"
+  },
+  {
+    "id": "game14",
+    "title": "Warfare 1942 - online shooter",
+    "category": "Shooter",
+    "iframe": "https://html5.gamedistribution.com/8cc62e5427cf443dab15634e5dfe7937/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "Warfare 1942 - online shooter.jpg"
   }
-
 ]

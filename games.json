@@ -292,5 +292,13 @@
     "category": "Adventure",
     "iframe": "https://html5.gamedistribution.com/3e34d62652d048b682de66117da5d84d/?gd_sdk_referrer_url=https://playgame.id.vn",
     "thumbnail": "images/Real Street Fighter 3D.jpg"
+  },
+  {
+    "id": "game43",
+    "title": "Dragon Ball Z - Supersonic Warriors",
+    "category": "battle",
+    "iframe": "https://www.retrogames.cc/embed/19537-dragonball-z-supersonic-warriors-e-rising-sun.html",
+    "thumbnail": "images/Dragon Ball Z - Supersonic Warriors.jpg"
   }
 ]
+

@@ -1,304 +1,434 @@
 [
   {
     "id": "game1",
-    "title": "Art Of Defense",
-    "category": "action",
+    "title": "AOD - Art Of Defense",
+    "category": "Shooter",
     "iframe": "https://html5.gamedistribution.com/941d9c0be5f24d83a1e5ca336f3e6ae4/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Art Of Defense.jpg"
+    "thumbnail": "https://img.gamedistribution.com/941d9c0be5f24d83a1e5ca336f3e6ae4-512x512.jpg",
+    "description": "Bước vào thế giới của AOD - Art Of Defense, một game chiến thuật trực tuyến miễn phí nơi nhiệm vụ chính của bạn là ngăn chặn các đợt tấn công của kẻ thù bằng cách xây dựng các tháp phòng thủ ở những vị trí chiến lược. Chơi trên điện thoại hay máy tính và thử thách kỹ năng của bạn trong thử thách phòng thủ đầy kịch tính này. Mỗi nước đi đều quan trọng—bạn có thể xây dựng hàng phòng thủ hoàn hảo không?",
+    "instructions": "Dùng nút chuột trái để đặt tháp.\nDùng con lăn chuột hoặc thao tác chụm trên bàn di chuột để phóng to hoặc thu nhỏ."
   },
   {
     "id": "game2",
-    "title": "Puzzle Mania",
-    "category": "action",
+    "title": "Tomb Runner",
+    "category": "Adventure",
     "iframe": "https://html5.gamedistribution.com/f2af2ecc05a445edb6862c589e996a7e/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Art Of Defense.jpg"
+    "thumbnail": "https://img.gamedistribution.com/f2af2ecc05a445edb6862c589e996a7e-512x384.jpg",
+    "description": "Giáo sư Jones có thể tiếp tục chạy được bao xa trong cuộc phiêu lưu của Tomb Runner? Chạy, nhảy, trượt, lao và lướt xuyên qua, bên trên và bên dưới các chướng ngại vật đa dạng qua các ngôi đền, phong cảnh kỳ ảo, cầu và đường tàu điện ngầm trong khi bạn thu thập những viên ngọc quý, sức mạnh đặc biệt và đồng xu. Mở khóa những nhân vật hấp dẫn như Lara Bones, Xác ướp, Đặc vụ 99, Vũ công Disco sành điệu và còn nhiều hơn thế nữa! Niềm vui chạy bất tận!",
+    "instructions": "Dưới đây là bản dịch:\n\nMũi tên lên = Nhảy\nMũi tên xuống = Trượt\nMũi tên trái = Di chuyển sang trái\nMũi tên phải = Di chuyển sang phải"
   },
   {
     "id": "game3",
     "title": "Zombie Monster Survivors",
-    "category": "action",
+    "category": "Adventure",
     "iframe": "https://html5.gamedistribution.com/105d61fde9324ffaac5d14f1769bdf1e/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Zombie Monster Survivors.jpg"
+    "thumbnail": "https://img.gamedistribution.com/105d61fde9324ffaac5d14f1769bdf1e-512x384.jpg",
+    "description": "**Zombie Monster Survivors** là một tựa game nhập vai nơi bạn sẽ trở thành một người sống sót dũng cảm. Chiến đấu chống lại những zombie và quái vật đáng sợ trong một thế giới tuyệt vời. Hãy sử dụng tài nguyên của bạn một cách khôn ngoan và đánh bại những quái vật và zombie không ngừng kéo đến. Cố gắng sống sót trong môi trường khắc nghiệt này. Không ngừng di chuyển và tấn công những làn sóng zombie khổng lồ. Thu thập tiền xu hoặc năng lượng và chọn kỹ năng của bạn.",
+    "instructions": "**Nhấp chuột hoặc chạm để chơi**"
   },
   {
     "id": "game4",
     "title": "Zombie Shooting King",
-    "category": "action",
+    "category": "Adventure",
     "iframe": "https://html5.gamedistribution.com/505a6808388d4967a82e141f956bcc13/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Zombie Shooting King.jpg"
+    "thumbnail": "https://img.gamedistribution.com/505a6808388d4967a82e141f956bcc13-512x384.jpg",
+    "description": "Ngày tận thế đã ập đến! Đàn zombie đang tràn ngập khắp các con phố. Bạn là phòng tuyến cuối cùng. Hãy vớ lấy súng, mài giũa kỹ năng bắn súng, và giải phóng hỏa lực không thể cản phá để sinh tồn. Bắn các thùng nhiên liệu, hòm tiếp tế và nhiều thứ khác để nhận thêm hỏa lực, tiêu diệt vô số zombie. Kiếm kim cương để nâng cấp các tài năng của bạn như: Hàng rào bảo vệ, Tăng ATK, Tỷ lệ Chí mạng, hoặc Khả năng kiếm xu!",
+    "instructions": "**Nhấp chuột hoặc chạm để chơi**"
   },
   {
     "id": "game5",
     "title": "Ninja Obby Parkour",
-    "category": "Casual",
+    "category": "Racing & Driving",
     "iframe": "https://html5.gamedistribution.com/7366d797ba8649cd8381f587ddcb29de/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Ninja Obby Parkour.jpg"
+    "thumbnail": "https://img.gamedistribution.com/7366d797ba8649cd8381f587ddcb29de-512x384.jpg",
+    "description": "Bước vào thế giới đầy kịch tính của Ninja Obby Parkour, nơi mỗi màn chơi là một thử thách về tốc độ, sự nhanh nhẹn và chiến lược. Với hàng trăm đường đua vượt chướng ngại vật độc đáo, tựa game này kết hợp đua tốc độ cạnh tranh với chiến đấu ninja và các tùy biến ấn tượng.\n\nTừ việc đập vỡ những cánh cửa kính tại các điểm checkpoint bằng sức mạnh ninja của bạn cho đến việc mở khóa các phần thưởng mạnh mẽ như tăng tốc độ, chế độ khổng lồ và khả năng bay, mỗi lượt chơi luôn mang đến cảm giác mới mẻ.",
+    "instructions": "Người chơi 1: WASD để di chuyển, SPACE để nhảy.\nNgười chơi 2: Phím Mũi tên để di chuyển, L để nhảy.\nNhấn đúp nút nhảy để Nhảy Đúp.\nGiữ phím tiến để Chạy Nhanh.\nTrên di động: Cần điều khiển (Joystick) + nút Nhảy."
   },
   {
     "id": "game6",
     "title": "Stickman Kombat 2D",
     "category": "Battle",
     "iframe": "https://html5.gamedistribution.com/6d3928f393774157a7aed692f08ee011/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Stickman Kombat 2D.jpg"
+    "thumbnail": "https://img.gamedistribution.com/6d3928f393774157a7aed692f08ee011-512x512.jpg",
+    "description": "Adrenaline bùng nổ! Cuồng nộ, tốc độ và hỗn loạn bùng cháy trong những trận chiến 2D khốc liệt. Cảm nhận từng đòn đánh — và lao mình vào điên loạn. Bạn đã sẵn sàng chưa?",
+    "instructions": "**PHÍM ĐIỀU KHIỂN DÀNH CHO 1 NGƯỜI CHƠI:**\n\nWASD — di chuyển\nJ — tấn công\nK — chiêu đặc biệt\nLÙI + K — chiêu đặc biệt thứ hai\nS + J — đấm móc\nGIỮ S — đỡ đòn\n\n**PHÍM ĐIỀU KHIỂN DÀNH CHO 2 NGƯỜI CHƠI TRÊN CÙNG MỘT MÁY TÍNH:**\n\nNgười chơi 1: WASD + F (tấn công), G (chiêu đặc biệt)\nNgười chơi 2: IJKL + : (dấu hai chấm) (tấn công), \" (dấu nháy kép) (chiêu đặc biệt)\n\n**COMBO:**\nNhấn nút tấn công đúng lúc để nối combo. Nhảy ra sau lưng kẻ địch và tấn công — sẽ kích hoạt các đòn đánh trên không."
   },
   {
     "id": "game7",
     "title": "Chess Online",
     "category": "Boardgames",
     "iframe": "https://html5.gamedistribution.com/b80ebde6ee1b4adfaa96398a4261db80/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Chess Online.jpg"
+    "thumbnail": "https://img.gamedistribution.com/b80ebde6ee1b4adfaa96398a4261db80-512x512.jpg",
+    "description": "*   Chọn đối thủ với 18 cấp độ khó, từ Sơ cấp đến Vô địch Thế giới\n*   Lựa chọn các chế độ kiểm soát thời gian: Không giới hạn, Bullet, Blitz, Rapid, Classic\n*   Hiển thị các nước đi có thể khi chọn một quân cờ\n*   Hủy nước đi: nếu có lỡ tay, bạn có thể quay lại\n*   Gợi ý tương tác, hiển thị nước đi tốt nhất trong ván đấu\n*   Phân tích sau ván đấu, chỉ ra lỗi sai và đưa ra khuyến nghị về cách chơi\n*   Xem lại ván đấu từ vị trí mong muốn\n*   Cài đặt chế độ chấp",
+    "instructions": "**Luật chơi:**\nCác trường hợp hòa cờ được công nhận:\n*   Hết nước đi (nếu một bên không thể thực hiện bất kỳ nước đi hợp lệ nào, nhưng không bị chiếu hết trên bàn cờ)\n*   Thế cờ lặp lại 3 lần\n*   50 nước đi liên tục mà không có quân nào bị ăn và không có quân tốt nào di chuyển\n*   Thiếu vật chất (không đủ quân để chiếu hết)"
   },
   {
     "id": "game8",
     "title": "Commando Force 2",
     "category": "Shooter",
     "iframe": "https://html5.gamedistribution.com/7d0574417a0d4c158b4d6e381f1c4a3e/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Commando Force 2.jpg"
+    "thumbnail": "https://img.gamedistribution.com/7d0574417a0d4c158b4d6e381f1c4a3e-512x384.jpg",
+    "description": "Hãy sẵn sàng cho cuộc phiêu lưu game bắn súng cùng Commando Force 2!\nNhập cuộc một tựa game bắn súng nhịp độ nhanh!\nTham gia cuộc vui và đắm mình vào hành động!\nMở khóa vũ khí mới, thống trị các bản đồ, và thể hiện cho mọi người thấy tài năng của bạn!",
+    "instructions": "**Bàn phím:**\n\n*   **WASD:** Di chuyển\n*   **G:** Súng phóng lựu\n*   **C:** Cúi người\n*   **R:** Nạp đạn\n*   **1:** Vũ khí chính\n*   **2:** Vũ khí phụ\n*   **Chuột trái (M1):** Ngắm bắn\n*   **Chuột phải (M2):** Bắn\n*   **SPACE:** Nhảy\n*   **ESC hoặc TAB:** Menu\n*   **Cuộn chuột:** Đổi vũ khí\n*   **SHIFT + W:** Chạy\n*   **SHIFT + W + C:** Trượt"
   },
   {
     "id": "game9",
     "title": "Animal Royal",
     "category": "Battle",
     "iframe": "https://html5.gamedistribution.com/6529282c80f84c4c905380a86d778ee8/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Animal Royal.jpg"
+    "thumbnail": "https://img.gamedistribution.com/6529282c80f84c4c905380a86d778ee8-1280x720.jpg",
+    "description": "Trò chơi đối kháng PvP (người chơi đấu người chơi) đỉnh cao này cho phép game thủ đối đầu với đối thủ của mình bằng cách sử dụng những loài động vật độc đáo.\nBạn sẽ được thử thách sử dụng trí tuệ và chiến lược để vượt mặt đối thủ và giành chiến thắng.\nAnimal Royal là một trò chơi sở hữu rất nhiều loài động vật và chim đa dạng, mỗi loài đều có những điểm mạnh và điểm yếu riêng biệt.\nMục tiêu của bạn là bảo vệ số thịt của mình khỏi bị động vật của đối thủ ăn, đồng thời cử động vật của mình đi ăn càng nhiều thịt càng tốt để giành chiến thắng trong trận chiến.",
+    "instructions": "**Nhấp, Kéo và Thả**"
   },
   {
     "id": "game10",
     "title": "Match Fighter",
     "category": "Battle",
     "iframe": "https://html5.gamedistribution.com/56b5cb9b86014d5f8bf726ca5c4ff06e/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Match Fighter.jpg"
+    "thumbnail": "https://img.gamedistribution.com/56b5cb9b86014d5f8bf726ca5c4ff06e-512x384.jpg",
+    "description": "**Match Fighter** là một game đối kháng xếp hình match-3 sôi động, nơi võ thuật cổ điển giao thoa với lối chơi giải đố đầy kịch tính! Nhập vai một chiến binh tài ba và đối đầu với hàng loạt đối thủ mạnh mẽ. Ghép các ô để ra đòn và tung ra những chiêu thức đặc biệt trong các trận đấu tay đôi 1 chọi 1 gay cấn. Mỗi chuỗi combo bạn tạo ra sẽ tiếp thêm sức mạnh cho tinh thần chiến đấu của bạn. Vượt qua đối thủ bằng chiến thuật thông minh, leo lên các thứ hạng cao, và chứng tỏ bản thân là nhà vô địch võ thuật tối thượng!\n\nLiệu bạn có thể ghép các ô để giành lấy chiến thắng?",
+    "instructions": "**Cách chơi**\n\n1.  Ghép 3 ô hoặc nhiều hơn cùng loại để tấn công.\n2.  Tạo combo để gây thêm sát thương và nạp chiêu siêu cấp của bạn.\n3.  Luân phiên với đối thủ — hãy lên kế hoạch cho nước đi của bạn thật cẩn thận!\n4.  Đánh bại kẻ thù bằng cách giảm máu của họ xuống 0."
   },
   {
     "id": "game11",
     "title": "Get To The Chopper",
     "category": "Shooter",
     "iframe": "https://html5.gamedistribution.com/32ba9ee1361648f2abf104bfa088ea3f/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Get To The Chopper.jpg"
+    "thumbnail": "https://img.gamedistribution.com/32ba9ee1361648f2abf104bfa088ea3f-512x384.jpg",
+    "description": "Hãy sẵn sàng và chiến đấu mở đường đến nơi an toàn trong Get To The Chopper, một tựa game bắn súng góc nhìn thứ nhất (FPS) 3D đầy kịch tính, nơi mỗi nhiệm vụ là một cuộc chiến sinh tồn! Mục tiêu của bạn rất rõ ràng: tiếp cận trực thăng sơ tán đồng thời tiêu diệt tất cả kẻ thù cản đường. Được trang bị một bộ trang bị tùy chỉnh hoàn chỉnh – bao gồm súng chính, vũ khí phụ, lựu đạn và vũ khí cận chiến – bạn sẽ đối mặt với những đợt kẻ thù trên các chiến trường đa dạng như rừng rậm, sa mạc và nhiều hơn nữa.",
+    "instructions": "Càn quét kẻ thù và mở đường đến điểm thoát hiểm trong tựa game bắn súng góc nhìn thứ nhất 3D đầy kịch tính này!"
   },
   {
     "id": "game12",
     "title": "Tower Defense",
     "category": "Adventure",
     "iframe": "https://html5.gamedistribution.com/728008a5c29a4dc89c8549bec653fdc5/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Tower Defense.jpg"
+    "thumbnail": "https://img.gamedistribution.com/728008a5c29a4dc89c8549bec653fdc5-512x384.jpg",
+    "description": "Trong game thủ thành, bạn sẽ chỉ huy một đội quân tháp phòng thủ hùng mạnh để đối mặt với các đợt tấn công của quân địch. Bố trí các tháp phòng thủ của bạn một cách khéo léo và phát triển chiến lược để đẩy lùi quân địch. Mỗi tháp có sức mạnh tấn công và khả năng khác nhau. Mở khóa đúng loại tháp và tìm vị trí đặt phù hợp. Nâng cấp binh lính của bạn để giúp bạn chiến đấu. Sử dụng nỏ của bạn để hạ gục chúng.",
+    "instructions": "**Nhấp chuột hoặc chạm để chơi**"
   },
   {
     "id": "game13",
     "title": "Zombie Redemption",
     "category": "Battle",
     "iframe": "https://html5.gamedistribution.com/60fe1469f0cd4b4a8de22879939d5db7/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Zombie Redemption.jpg"
+    "thumbnail": "https://img.gamedistribution.com/60fe1469f0cd4b4a8de22879939d5db7-512x512.jpg",
+    "description": "**Zombie Redemption** là một trò chơi hành động sinh tồn lấy bối cảnh trong một thế giới mà một thí nghiệm thất bại đã biến phần lớn nhân loại thành zombie. Người chơi kiếm vàng bằng cách tiêu diệt zombie, số vàng này có thể dùng để mở khóa các loại vũ khí mạnh hơn. Tuy nhiên, lũ zombie cũng tấn công, đòi hỏi người chơi phải có phản xạ nhanh và tư duy chiến lược để sinh tồn. Kết hợp các yếu tố chiến lược, hành động và sinh tồn, trò chơi này sẽ mang đến một cuộc phiêu lưu khó quên trong cuộc chiến để cứu thế giới.",
+    "instructions": "W, A, S, D và chuột."
   },
   {
     "id": "game14",
     "title": "Warfare 1942 - online shooter",
     "category": "Shooter",
     "iframe": "https://html5.gamedistribution.com/8cc62e5427cf443dab15634e5dfe7937/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Warfare 1942 - online shooter.jpg"
+    "thumbnail": "https://img.gamedistribution.com/8cc62e5427cf443dab15634e5dfe7937-512x384.jpg",
+    "description": "Hãy đắm mình vào không khí Thế chiến II, nơi mỗi trận chiến là một cuộc chiến sinh tồn độc đáo!\n\nTrò chơi được thiết kế dành cho những người đam mê quân sự và những ai yêu thích các trận chiến trực tuyến căng thẳng. Đây là lựa chọn hoàn hảo cho những game thủ ưu tiên các trò chơi bắn súng với lối chơi chi tiết, đa dạng nhân vật và khả năng tùy chỉnh. Phù hợp cho cả những chiến binh dày dặn kinh nghiệm lẫn người chơi mới.",
+    "instructions": "Trong trò chơi, bạn có thể kết nối với những người chơi khác và tham gia vào các trận chiến theo phiên. Người chiến thắng là người ghi được nhiều điểm nhất khi trận đấu kết thúc!\n\nĐiều khiển bằng bàn phím và chuột:\nTAB - menu tạm dừng\nWASD - di chuyển\nSPACE - nhảy\nC - cúi người\nM - mở bản đồ\n1 - 5 - chọn vật phẩm\nLMB - bắn\nRMB - ngắm\nR - nạp đạn\nU - sử dụng kỹ năng của chó\nT - gõ chat"
   },
   {
     "id": "game15",
-    "title": "Strike Force - Action Platformer",
+    "title": "Strike Force: Action Platformer",
     "category": "Shooter",
     "iframe": "https://html5.gamedistribution.com/30c319848d544c30afbe82ad24fbac5b/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Strike Force_ Action Platformer.jpg"
+    "thumbnail": "https://img.gamedistribution.com/30c319848d544c30afbe82ad24fbac5b-512x512.jpg",
+    "description": "Bước vào thế giới bùng nổ của Strike Force: Action Platformer — một tựa game bắn súng hành động cuộn ngang cường độ cao, lấy cảm hứng từ loạt game Contra huyền thoại. Chiến đấu qua các màn chơi gay cấn đầy ắp những trận chiến không ngừng nghỉ, kẻ thù chết chóc và những trận đấu trùm khốc liệt.\n\nSử dụng kho vũ khí mạnh mẽ bao gồm súng lục, súng phóng lựu, súng shotgun, súng máy và lựu đạn hủy diệt. Nắm vững phản xạ và kỹ năng chiến thuật của bạn để sống sót trước những làn sóng kẻ thù không ngừng nghỉ!",
+    "instructions": "Đây là bản dịch sang tiếng Việt:\n\n**Điều khiển trên điện thoại:**\nBên trái – Cần điều khiển ảo để di chuyển\nBên phải – Các nút bấm để: Nhảy, Bắn và Ném lựu đạn\n\n**Điều khiển trên máy tính để bàn:**\nDi chuyển – Sử dụng W / A / S / D hoặc các phím mũi tên\nNhảy – Nhấn phím cách (Spacebar)\nBắn – Nhấn phím J\nNém lựu đạn – Nhấn phím K"
   },
   {
     "id": "game16",
     "title": "Fighter Legends Duo",
     "category": "Battle",
     "iframe": "https://html5.gamedistribution.com/fa25a9b278884b56801f3aaa8bfdb14f/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Fighter Legends Duo.jpg"
+    "thumbnail": "https://img.gamedistribution.com/fa25a9b278884b56801f3aaa8bfdb14f-512x384.jpg",
+    "description": "Cuộc phiêu lưu chiến đấu đỉnh cao sẽ bắt đầu cùng tựa game Fighter Legends Duo! Cuộc phiêu lưu này sẽ đưa bạn đến nhiều địa điểm đa dạng như đền thờ, khu vực quân sự, sa mạc, hang động và nhiều nơi khác nữa. Giải đấu quy tụ những chiến binh huyền thoại từ mọi thời đại, tạo nên một giải đấu đối kháng All-Star thực thụ. Hãy chọn cho mình một đấu sĩ, bước vào đấu trường và bắt đầu chiến đấu chống lại những đối thủ siêu tài năng này.",
+    "instructions": "Người chơi 1:\nDi chuyển: \"W,A,S,D\"\nĐấm: \"F\"\nĐá: \"G\"\nĐặc biệt: \"H\"\n\nNgười chơi 2:\nDi chuyển: \"Phím MŨI TÊN\"\nĐấm: \"K\"\nĐá: \"L\"\nĐặc biệt: \"J\""
   },
   {
     "id": "game17",
     "title": "Kris Mahjong",
     "category": "Mahjong & Connect",
     "iframe": "https://html5.gamedistribution.com/5ed3b1c510c3400db0ef580c60cbcdca/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Kris Mahjong.jpg"
+    "thumbnail": "https://img.gamedistribution.com/5ed3b1c510c3400db0ef580c60cbcdca-512x384.jpg",
+    "description": "Hãy ghép các quân mạt chược trong Kris Mahjong. Dọn sạch bàn chơi bằng cách loại bỏ tất cả các cặp quân giống hệt nhau.",
+    "instructions": "Dùng các nút chuột để nhấp vào các ô."
   },
   {
     "id": "game18",
     "title": "Bubble Shooter HD",
     "category": "Bubble Shooter",
     "iframe": "https://html5.gamedistribution.com/79a7db22af5f420eb9d56e28fffca87b/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Bubble Shooter HD.jpg"
+    "thumbnail": "https://img.gamedistribution.com/79a7db22af5f420eb9d56e28fffca87b-512x384.jpeg",
+    "description": "Bạn có đang bận việc gì gấp không? Nếu có, bạn *tuyệt đối không nên* nghĩ đến việc chơi Bubble Shooter HD. Lối chơi cực kỳ gây nghiện sẽ khiến bạn mê mẩn hàng giờ và đảm bảo bạn sẽ quên bẵng thời gian.\n\nMục tiêu của bạn là loại bỏ tất cả các bong bóng khỏi bảng chơi, ghi được càng nhiều điểm càng tốt. Ghép 2 hoặc nhiều bong bóng cùng màu với màu của quả bóng bạn bắn để loại bỏ chúng. Càng nhiều bong bóng bạn bắn nổ trong một cú bắn, bạn càng ghi được nhiều điểm. Nếu bạn không làm nổ được bong bóng, bạn sẽ bị tính một lỗi, và khi có đủ số lần phạm lỗi, một hàng bong bóng mới sẽ xuất hiện từ phía trên.\n\nHãy chơi Bubble Shooter HD ngay bây giờ và tận hưởng trò chơi bắn bong bóng trực tuyến hay nhất hoàn toàn miễn phí!",
+    "instructions": "Chạm bằng điều khiển cảm ứng hoặc nhấp chuột để bắn bóng, ghép từ 3 quả bóng cùng màu trở lên để làm nổ chúng."
   },
   {
     "id": "game19",
     "title": "Fruit Connect",
     "category": "Mahjong & Connect",
     "iframe": "https://html5.gamedistribution.com/ab4cd1057489401899c5b8f1e050070f/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Fruit Connect.jpg"
+    "thumbnail": "https://img.gamedistribution.com/ab4cd1057489401899c5b8f1e050070f-512x384.jpg",
+    "description": "Thu thập tất cả trái cây từ khu vực chơi để tiến lên cấp độ tiếp theo và giành chiến thắng trò chơi kết nối cổ điển này của Agame! Khám phá các thử thách đa dạng và hấp dẫn trong trò chơi Fruit Connect miễn phí này.",
+    "instructions": "Kết nối các cặp trái cây giống hệt nhau và xóa sạch khu vực chơi trong thời gian giới hạn. Chọn một ô trái cây bằng cách nhấp hoặc chạm, sau đó chọn ô đối ứng của nó."
   },
   {
     "id": "game20",
     "title": "Fruitsland: Escape from the Amusement Park",
-    "category": "Puzzle",
+    "category": "Adventure",
     "iframe": "https://html5.gamedistribution.com/78028efd6f3f42568f88cb90ab29c4a5/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Fruitsland: Escape from the Amusement Park.jpg"
+    "thumbnail": "https://img.gamedistribution.com/78028efd6f3f42568f88cb90ab29c4a5-512x384.jpg",
+    "description": "**Fruitsland: Thoát khỏi Công viên Giải trí** là một cuộc phiêu lưu thoát hiểm kinh dị, nơi những trò chơi giải trí rực rỡ sắc màu ẩn chứa hiểm nguy rình rập. Người chơi phải giải đố, thu thập vật phẩm và khám phá manh mối trong khi lẩn tránh kẻ thù hung hãn. Hành động lén lút và canh thời gian là yếu tố then chốt—hãy khám phá cẩn trọng, ẩn nấp khi cần và đánh lừa các mối đe dọa để sống sót và thoát hiểm. Sự kết hợp giữa bối cảnh đầy màu sắc và không khí căng thẳng rợn người tạo nên một trải nghiệm độc đáo, đầy kịch tính và hồi hộp.",
+    "instructions": "Di chuyển bằng WASD hoặc phím mũi tên; cúi người bằng C; nhảy bằng phím cách (Space). Khám phá công viên để thu thập manh mối và vật phẩm, giải các câu đố, và mở khóa các lối đi mới. Cẩn thận với những kẻ thù tuần tra – hãy ẩn nấp hoặc giữ mình khuất tầm mắt để tránh bị bắt. Sử dụng các vật phẩm đã thu thập một cách khôn ngoan để tiến tới lối thoát và sống sót trong cuộc chạy trốn."
   },
   {
     "id": "game21",
     "title": "Pull the Pin: Fish Rescue!",
     "category": "Puzzle",
     "iframe": "https://html5.gamedistribution.com/a44a7eaafa0d4cfc90e75064c370b335/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Pull the Pin: Fish Rescue!.jpg"
+    "thumbnail": "https://img.gamedistribution.com/a44a7eaafa0d4cfc90e75064c370b335-512x384.jpg",
+    "description": "**Rút Chốt: Giải Cứu Cá!** là một trò chơi giải đố thư giãn và gây nghiện với rất nhiều câu đố thú vị. Trong game, bạn sẽ thấy nhiều ngăn. Chúng được ngăn cách bởi các vách ngăn. Ở một ngăn, bạn sẽ thấy một chú cá, và ở một ngăn khác là nước. Bạn sẽ cần nghiên cứu kỹ mọi thứ và rút chốt. Như vậy, bạn sẽ mở đường và nước sẽ chảy đến chỗ chú cá.",
+    "instructions": "Nhiệm vụ của bạn rất đơn giản: kéo chốt là nước sẽ đến được với cá."
   },
   {
     "id": "game22",
     "title": "Enchanted Mahjong Saga",
-    "category": "Mahjong & Connect",
+    "category": "Agility",
     "iframe": "https://html5.gamedistribution.com/c2c324fd1e324830b3e2e3464cbad8a7/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Enchanted Mahjong Saga.jpg"
+    "thumbnail": "https://img.gamedistribution.com/c2c324fd1e324830b3e2e3464cbad8a7-512x384.jpg",
+    "description": "**Truyền Kỳ Mạt Chược Huyền Ảo** là một phiên bản phá cách với nhịp độ nhanh của trò chơi ghép gạch cổ điển, với vô số màn chơi để thử thách trí óc của bạn. Hãy ghép gạch, đánh bại thời gian và duy trì chuỗi thắng của bạn khi mỗi cấp độ ngày càng khó khăn và hấp dẫn hơn. Cảm thấy bế tắc ư? Hãy sử dụng các gợi ý hữu ích để trở lại cuộc chơi và tiếp tục cuộc hành trình của bạn. Dù bạn chơi để giải lao nhanh chóng hay muốn giải trí lâu dài, luôn có một câu đố mới đang chờ đón bạn.",
+    "instructions": "Dùng chuột hoặc bàn di chuột để chọn và ghép các ô."
   },
   {
     "id": "game23",
     "title": "Zombie Survival",
     "category": "Adventure",
     "iframe": "https://html5.gamedistribution.com/ea59d60a601041a28afcb6af3dde0bdd/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Zombie Survival.jpg"
+    "thumbnail": "https://img.gamedistribution.com/ea59d60a601041a28afcb6af3dde0bdd-512x384.jpg",
+    "description": "Tham gia cuộc phiêu lưu zombie đầy kịch tính trong Zombie Survival. Khám phá một thế giới nguy hiểm tràn ngập zombie. Thu thập nhiều loại vũ khí khác nhau để tấn công zombie. Di chuyển thông minh và đặt bẫy để tự vệ khỏi những đợt sóng zombie khổng lồ. Khám phá những thành phố bỏ hoang, những con hẻm tối tăm và những khu rừng ghê rợn – mỗi màn chơi là một cuộc phiêu lưu mới! Đối đầu với những con trùm zombie khổng lồ và chứng minh kỹ năng sinh tồn của bạn dưới áp lực! Thu thập nhiều vật phẩm hữu ích để sửa chữa các công cụ bị hỏng của bạn.",
+    "instructions": "**Nhấp chuột hoặc chạm để chơi**"
   },
   {
     "id": "game24",
     "title": "Street Traffic Racer",
     "category": "Racing & Driving",
     "iframe": "https://html5.gamedistribution.com/b4d7df30b6354d92aad8ac6b6162dc74/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Street Traffic Racer.jpg"
+    "thumbnail": "https://img.gamedistribution.com/b4d7df30b6354d92aad8ac6b6162dc74-1280x720.jpg",
+    "description": "Rê bánh 6 chiếc siêu xe đường phố ấn tượng với bộ body kit đã độ và lái chúng qua 3 cung đường cao tốc đẹp như tranh mà không va chạm. Thể hiện tài lái lụa của bạn khi điều khiển những cỗ máy tốc độ với động cơ gầm rú và chinh phục 3 chế độ chơi cực đỉnh. Sử dụng nitro tự nạp để vượt qua mọi đối thủ và luôn duy trì tốc độ cao nhất. Tùy chỉnh và nâng cấp xe của bạn với những gói độ tốt nhất để khai thác tối đa tiềm năng của chúng. Bạn đã sẵn sàng chứng tỏ kỹ năng lái xe của mình chưa? Hãy chứng tỏ bản lĩnh của bạn trong Street Traffic Racer!",
+    "instructions": "Dưới đây là bản dịch:\n\nW, A, S, D / Phím mũi tên: Lái/Điều khiển xe, Phanh\nF: Nitro\nC: Đổi Camera"
   },
   {
     "id": "game25",
     "title": "Zombie Idle Defense",
     "category": "Adventure",
     "iframe": "https://html5.gamedistribution.com/39d8fb0fc5784ff5a6445e4f84645f6e/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Zombie Idle Defense.jpg"
+    "thumbnail": "https://img.gamedistribution.com/39d8fb0fc5784ff5a6445e4f84645f6e-200x120.jpg",
+    "description": "Hãy sẵn sàng cho một trận chiến zombie không khoan nhượng trong Zombie Idle Defense! Trong tựa game thủ thành nhàn rỗi hấp dẫn này, bạn sẽ là phòng tuyến cuối cùng chống lại những đợt tấn công zombie liên tiếp! Xây dựng hệ thống phòng thủ của bạn, nâng cấp vũ khí, kích hoạt các tháp pháo tự động xả đạn, và chiến đấu đẩy lùi lũ xác sống!",
+    "instructions": "**Nhấp chuột hoặc chạm để chơi**"
   },
   {
     "id": "game26",
     "title": "2 Player Online Chess",
     "category": "Boardgames",
     "iframe": "https://html5.gamedistribution.com/6c943823fcb94f53a8a0c51f796736aa/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/2 Player Online Chess.jpg"
+    "thumbnail": "https://img.gamedistribution.com/6c943823fcb94f53a8a0c51f796736aa-512x512.jpg",
+    "description": "Thưởng thức môn cờ vua kinh điển với Cờ Vua Trực Tuyến 2 Người Chơi! Chơi đơn với máy tính hoặc thách đấu bạn bè ở chế độ 2 người chơi. Dễ sử dụng, không phiền nhiễu—chỉ là cờ vua đơn giản, vui nhộn dành cho tất cả mọi người. Hãy bắt đầu chơi ngay hôm nay!",
+    "instructions": "Dùng chuột hoặc vuốt ngón tay để điều khiển."
   },
   {
     "id": "game27",
     "title": "Strawberry Parfait: Sara's Cooking Class",
     "category": "Cooking",
     "iframe": "https://html5.gamedistribution.com/9f6b436478d44edfaff9d244d1f6b811/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Strawberry Parfait: Sara's Cooking Class.jpg"
+    "thumbnail": "https://img.gamedistribution.com/9f6b436478d44edfaff9d244d1f6b811.jpg",
+    "description": "Sara sắp thử một công thức mới siêu ngon. Bạn tham gia cùng cô ấy nhé? Sara sắp thử một công thức mới siêu ngon. Bạn tham gia cùng cô ấy nhé?",
+    "instructions": ""
   },
   {
     "id": "game28",
     "title": "Food Truck Chef Cooking",
     "category": "Casual",
     "iframe": "https://html5.gamedistribution.com/0df98c9ecda34b36a0a60a4f1776bc7c/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Food Truck Chef Cooking.jpg"
+    "thumbnail": "https://img.gamedistribution.com/0df98c9ecda34b36a0a60a4f1776bc7c-512x384.jpg",
+    "description": "Chào mừng bạn đến với Food Truck Chef Cooking, một trò chơi mô phỏng nấu ăn thư giãn trực tuyến. Bạn có muốn trải nghiệm một ngày làm việc của một đầu bếp xe tải thức ăn? *[Lưu ý: Câu \"Are you curious about what the screw's work is like on an airplane?\" bị bỏ qua vì không phù hợp ngữ cảnh và có thể là lỗi văn bản gốc.]* Hãy tham gia trò chơi mô phỏng đầu bếp đỉnh cao của chúng tôi và giải đáp mọi thắc mắc của bạn. Bước vào căn bếp của chiếc xe tải đang hoạt động và đáp ứng mọi yêu cầu của khách hàng. Thử thách trí óc và nâng cao tư duy của bạn trong trò chơi quản lý nấu ăn này.",
+    "instructions": "**Nhấp chuột hoặc chạm để chơi**"
   },
   {
     "id": "game29",
     "title": "Sort And Style: Back To School",
-    "category": "Dress-up",
+    "category": "Puzzle",
     "iframe": "https://html5.gamedistribution.com/a29d8240d69c4b39b954c698f83bc3f7/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Sort And Style: Back To School.jpg"
+    "thumbnail": "https://img.gamedistribution.com/a29d8240d69c4b39b954c698f83bc3f7-512x384.jpg",
+    "description": "Bước vào thế giới của Sort And Style: Back To School, một tựa game kết hợp đầy vui nhộn giữa sắp xếp và thời trang dành cho các bạn gái! Dọn dẹp những chiếc bàn học, tủ đồ, tủ quần áo bừa bộn và thậm chí cả hộp cơm bento qua 9 màn chơi hấp dẫn. Sau đó, hãy thử thách sự sáng tạo của bạn trong phần hóa trang cuối cùng, nơi bạn sẽ tạo phong cách đến trường của riêng mình với những bộ đồng phục, giày dép, kiểu tóc và phụ kiện sành điệu nhất. Lý tưởng cho những ai yêu thích các trò chơi sắp xếp, niềm vui làm đẹp và thử thách thời trang học đường!",
+    "instructions": "Dùng chuột để chơi trò này trên máy tính để bàn, chạm để chơi trên thiết bị di động."
   },
   {
     "id": "game30",
     "title": "Retro Street Fighter",
-    "category": "Battle",
+    "category": "Agility",
     "iframe": "https://html5.gamedistribution.com/075cc523ea324ca6a678ec3369fb0666/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Retro Street Fighter.jpg"
+    "thumbnail": "https://img.gamedistribution.com/075cc523ea324ca6a678ec3369fb0666-512x384.jpg",
+    "description": "Hãy quay ngược thời gian với Retro Street Fighter, một tựa game đối kháng cuộn màn hình ngang sẽ khơi gợi cảm giác hoài niệm trong bạn. Trò chơi này sở hữu đồ họa pixel 2D, mang đến một diện mạo cổ điển. Bạn sẽ chiến đấu vượt qua nhiều màn chơi khác nhau, đối mặt với vô số kẻ thù và thể hiện kỹ năng của mình. Bạn có thể lựa chọn từ bảy mức độ khó để thử thách bản thân. Bạn cũng sẽ sở hữu nhiều chiêu thức đa dạng để sử dụng trong chiến đấu, bao gồm đấm, đá và đỡ đòn. Nhưng hãy cẩn thận, một số kẻ thù rất mạnh và nguy hiểm.",
+    "instructions": "**Trên PC:** Phím mũi tên = di chuyển, J = đấm, I = đá, K = nhảy, L = chặn.\n**Trên thiết bị di động:** Kéo vòng di chuyển, Chạm các nút để tấn công hoặc phòng thủ."
   },
   {
     "id": "game31",
     "title": "Plants Vs Zombies War",
     "category": "Strategy",
     "iframe": "https://html5.gamedistribution.com/d458dfabce9e4aeda37fd3bf2c0ea01f/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Plants Vs Zombies War.jpg"
+    "thumbnail": "https://img.gamedistribution.com/d458dfabce9e4aeda37fd3bf2c0ea01f-512x384.jpg",
+    "description": "Tựa game Plants Vs Zombies War được phát triển dựa trên trò chơi PC nổi tiếng Plants VS Zombies. Đây là một game chiến thuật phòng thủ tháp (tower-defense) đòi hỏi bạn phải có chiến lược để đối phó với 15 loại zombie đang tràn đến. Trước trận đấu, bạn có thể xem xét mức tiêu thụ và sát thương của cả 15 loại cây mà bạn sở hữu. Sau đó, phần hướng dẫn sẽ giới thiệu các quy tắc cơ bản và những loại cây có sẵn ở Cấp độ 1. Bạn càng hoàn thành nhiều cấp độ, bạn càng mở khóa được nhiều loại cây hơn. Người chơi cũng có thể mở khóa sớm các loại cây này bằng cách xem quảng cáo.",
+    "instructions": "**Nhấp chuột hoặc chạm để chơi**"
   },
   {
     "id": "game32",
     "title": "Tower Defenders",
     "category": "Strategy",
     "iframe": "https://html5.gamedistribution.com/d2194f2a265b4ecc9290f961102788db/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Tower Defenders.jpg"
+    "thumbnail": "https://img.gamedistribution.com/d2194f2a265b4ecc9290f961102788db-512x512.jpg",
+    "description": "Hãy chiến đấu chống lại những chiến binh Viking xác sống và nâng cấp hệ thống phòng thủ của bạn. Sử dụng những phần thưởng bạn nhận được từ các chiến thắng để tạo lợi thế cho mình. Hãy trụ vững càng lâu càng tốt!",
+    "instructions": "Here's the translation:\n\nNâng cấp tháp phòng thủ của bạn và nhận xu (coins) cùng đá quý (gems) khi tiêu diệt kẻ địch. Cứ mỗi hai cấp độ, chọn một trong ba lá bài và quyết định nâng cấp nào sẽ giúp bạn hiệu quả nhất. Trụ vững lâu nhất có thể trong chế độ chơi vô tận."
   },
   {
     "id": "game33",
     "title": "Zombie Defense: War",
     "category": "Strategy",
     "iframe": "https://html5.gamedistribution.com/c1951802cb1a439b998c1fa4bbfc4174/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Zombie Defense: War.jpg"
+    "thumbnail": "https://img.gamedistribution.com/c1951802cb1a439b998c1fa4bbfc4174-512x384.jpg",
+    "description": "Tiến qua các môi trường khác nhau và bảo vệ những thánh địa cuối cùng của nhân loại! Hợp nhất các tháp của bạn và sử dụng vật phẩm hỗ trợ để tăng cường cơ hội thành công.",
+    "instructions": "Mua các ô đất và xây tháp trên đó. Sử dụng Booster để tăng cường sức mạnh cho các tháp của bạn. Đánh bại các binh đoàn và trụ vững càng lâu càng tốt trong các cấp độ ngày càng khó dần."
   },
   {
     "id": "game34",
     "title": "Tower Wars Arena",
-    "category": "Strategy",
+    "category": "Casual",
     "iframe": "https://html5.gamedistribution.com/9e8bb81471124ff7a75ad120585b6022/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Tower Wars Arena.jpg"
+    "thumbnail": "https://img.gamedistribution.com/9e8bb81471124ff7a75ad120585b6022-512x384.jpg",
+    "description": "Chiến đấu trong đấu trường bằng chiến lược độc đáo, kết hợp các yếu tố chiến lược thời gian thực và phòng thủ tháp! Đánh chiếm trung tâm, phát triển quân đội và phá hủy tháp địch. Nâng cấp các đơn vị và phép thuật lên cấp độ huyền thoại để giành chiến thắng!",
+    "instructions": "**Điều khiển:**\n\n**Đặt Đơn vị và Phép thuật:** Đơn vị và phép thuật có thể được đặt vào đấu trường theo hai cách:\n1.  Kéo đơn vị hoặc phép thuật đã chọn vào đấu trường để đặt chúng vào vị trí mong muốn.\n2.  Nhấp vào biểu tượng đơn vị hoặc phép thuật để chọn nó, sau đó chọn một vị trí trong đấu trường để đặt nó."
   },
   {
     "id": "game35",
     "title": "Battle Tanks Firestorm",
-    "category": "Strategy",
+    "category": "Simulation",
     "iframe": "https://html5.gamedistribution.com/cc0b4633381d460bb32cef65940be2ba/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Battle Tanks Firestorm.jpg"
+    "thumbnail": "https://img.gamedistribution.com/cc0b4633381d460bb32cef65940be2ba-1280x720.jpg",
+    "description": "Trò chơi này đã hội tụ tinh hoa từ những game xe tăng đình đám nhất.\nBạn có thể tự do lựa chọn chiếc xe tăng ưng ý nhất, hoặc một phiên bản uy lực hơn. Hãy tiến vào các cấp độ và phòng thủ căn cứ của bạn trước quân địch. Trong tay bạn có hơn 15 loại xe tăng cùng các tùy chọn nâng cấp đa dạng như giáp, cũng như nâng cấp cấp độ 1, 2 và 3. Những cải tiến này sẽ là chìa khóa giúp bạn chiếm ưu thế trước đội quân xe tăng hùng hậu của địch.",
+    "instructions": "*   WASD - di chuyển;\n*   Nút chuột trái — bắn;\n*   Esc - tạm dừng."
   },
   {
     "id": "game36",
     "title": "Ultimate Plants TD",
     "category": "Strategy",
     "iframe": "https://html5.gamedistribution.com/ce865b83e5784bf18ba08067e55a791a/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Ultimate Plants TD.jpg"
+    "thumbnail": "https://img.gamedistribution.com/ce865b83e5784bf18ba08067e55a791a-512x384.jpg",
+    "description": "Trong Ultimate Plants TD, bạn sẽ chỉ huy một đội quân thực vật để bảo vệ khu vườn của mình khỏi vô số zombie. Mục tiêu của bạn là bảo vệ khu vườn khỏi những đợt zombie đầy thử thách. Việc thử nghiệm các sự kết hợp cây trồng khác nhau và cách bố trí vị trí của chúng là chìa khóa để tối đa hóa khả năng phòng thủ và vượt qua những thử thách cam go!",
+    "instructions": "Nhấp chuột hoặc chạm để phát"
   },
   {
     "id": "game37",
     "title": "Plant Girl Defense Zombie",
     "category": "Strategy",
     "iframe": "https://html5.gamedistribution.com/a3792900a21b48ddb546554a25057e31/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Plant Girl Defense Zombie.jpg"
+    "thumbnail": "https://img.gamedistribution.com/a3792900a21b48ddb546554a25057e31-512x384.jpg",
+    "description": "**Plant Girl Defense Zombie** là một game chiến thuật bắn súng thủ thành. Với đồ họa hoạt hình 2D cùng các cô gái thực vật và zombie, bạn cần tiêu diệt tất cả zombie trong 24 màn chơi. Thay đổi quỹ đạo bắn và lựa chọn kỹ năng khi bạn lên cấp. Khác với loạt game Plants VS Zombies truyền thống, bạn không cần phải trồng nhiều cây để chiến đấu chống lại zombie. Bạn chỉ cần điều khiển duy nhất một cô gái thực vật để bắn. Chúc may mắn!",
+    "instructions": "Nhấp chuột hoặc chạm để phát"
   },
   {
     "id": "game38",
     "title": "Fashion Princess - Dress Up for Girls",
     "category": "Casual",
     "iframe": "https://html5.gamedistribution.com/b4addeae4bfe422f8a324ab5474ca7b5/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Fashion Princess - Dress Up for Girls.jpg"
+    "thumbnail": "https://img.gamedistribution.com/b4addeae4bfe422f8a324ab5474ca7b5-512x384.jpg",
+    "description": "Hãy tham gia ngay tựa game thời trang 3D tuyệt đỉnh dành cho các bạn nữ! Thỏa sức diện đồ cho công chúa của bạn, giành chiến thắng trong các cuộc đua thời trang và gây ấn tượng với ban giám khảo bằng những bộ cánh lộng lẫy. Mở khóa những mẫu nhân vật, kiểu tóc và điệu nhảy mới khi bạn thu thập pha lê. Tự tin khoe phong cách cá nhân và trở thành nữ hoàng thời trang—chơi ngay miễn phí!",
+    "instructions": "Thiết kế diện mạo và kiểu tóc hoàn hảo để khiến ban giám khảo phải trầm trồ và ghi điểm thật cao! Hãy để trí tưởng tượng của bạn dẫn lối đến chiến thắng!\nThu thập ngọc để mở khóa những lựa chọn mới cho các người mẫu và điệu nhảy. Với nhiều lựa chọn hơn, hãy biến những diện mạo diệu kỳ trở thành hiện thực!\nTạo một avatar hoàn toàn của riêng bạn và trở thành một nữ hoàng thời trang! Chúng tôi luôn cổ vũ bạn trong hành trình thời trang này!"
   },
   {
     "id": "game39",
     "title": "Turbo Stunt Racing",
     "category": "Racing & Driving",
     "iframe": "https://html5.gamedistribution.com/7eccd8515acf46ed965dcf7d22fd00f1/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Turbo Stunt Racing.jpg"
+    "thumbnail": "https://img.gamedistribution.com/7eccd8515acf46ed965dcf7d22fd00f1-512x384.jpg",
+    "description": "Trải nghiệm cảm giác hồi hộp tốc độ cao trong Turbo Stunt Racing! Thực hiện những pha nhào lộn đỉnh cao, đua với các đối thủ sừng sỏ, và nâng cấp những chiếc xe độc đáo trong tựa game đua xe arcade 3D đầy ắp hành động, bẫy và đường dốc. Làm chủ kỹ năng lái xe chính xác và thống trị mọi cấp độ!",
+    "instructions": "Đây là bản dịch sang tiếng Việt:\n\n*   **↑ (Mũi tên lên / W): Tăng tốc**\n*   **↓ (Mũi tên xuống / S): Giảm tốc**\n*   **← (Mũi tên trái / A): Lái trái**\n*   **→ (Mũi tên phải / D): Lái phải**"
   },
   {
     "id": "game40",
     "title": "Operate Now Hospital Surgeon",
     "category": "Adventure",
     "iframe": "https://html5.gamedistribution.com/97398168b7dd44d8bd5d12e87ebc16f9/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Operate Now Hospital Surgeon.jpg"
+    "thumbnail": "https://img.gamedistribution.com/97398168b7dd44d8bd5d12e87ebc16f9.jpg",
+    "description": "Bác sĩ ơi, đây chắc chắn không phải lúc để nghỉ giải lao uống cà phê đâu! Có năm bệnh nhân đang chờ bác sĩ ở bệnh viện và họ cần bác sĩ giúp đỡ. Đừng lo, cô y tá của bác sĩ vừa mới đến làm và cô ấy đang chờ để hỗ trợ bác sĩ ở phòng mổ rồi. Như thường lệ, mọi thứ rất bận rộn trong thế giới của Operate Now, loạt game phẫu thuật nổi tiếng. Mau mặc đồ phẫu thuật vào và bắt tay vào việc, ngay lập tức!",
+    "instructions": "Bạn hãy dùng chuột hoặc bàn phím để chơi."
   },
   {
     "id": "game41",
     "title": "Fishing Baron Real Fishing",
     "category": "Adventure",
     "iframe": "https://html5.gamedistribution.com/d21b8e4ff35c48349946adeb487b1d09/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Fishing Baron Real Fishing.jpg"
+    "thumbnail": "https://img.gamedistribution.com/d21b8e4ff35c48349946adeb487b1d09-512x384.jpg",
+    "description": "Fishing Baron Real Fishing là một trò chơi mô phỏng câu cá giải trí mang đến trải nghiệm câu cá chân thực. Tận hưởng một hành trình câu cá thư giãn và đầy thử thách. Trở thành một bậc thầy câu cá. Bắt đầu cuộc phiêu lưu câu cá trên khắp các địa điểm câu cá đẹp mắt khác nhau. Từ hồ nước đến đại dương, bạn có thể mở khóa các khu vực khác nhau để câu cá. Mỗi địa điểm có những loài cá độc đáo và môi trường riêng biệt.",
+    "instructions": "**Nhấp chuột hoặc chạm để chơi**"
   },
   {
     "id": "game42",
     "title": "Real Street Fighter 3D",
     "category": "Adventure",
     "iframe": "https://html5.gamedistribution.com/3e34d62652d048b682de66117da5d84d/?gd_sdk_referrer_url=https://playgame.id.vn",
-    "thumbnail": "images/Real Street Fighter 3D.jpg"
+    "thumbnail": "https://img.gamedistribution.com/3e34d62652d048b682de66117da5d84d-512x384.jpg",
+    "description": "Real Street Fighter 3D có lối chơi rất gây nghiện và nhiều nhiệm vụ. Trong trò chơi này, bạn sẽ phải chiến đấu với các kẻ thù khác và hoàn thành các nhiệm vụ. Trò chơi có rất nhiều nhiệm vụ gây nghiện.",
+    "instructions": "Dùng phím W, A, S, D HOẶC phím mũi tên để di chuyển người chơi.\nDùng phím X để đấm.\nDùng phím Z để đá.\nDùng phím C để tóm/giữ.\nDùng phím cách (Space Bar) để nhảy."
   },
   {
     "id": "game43",
     "title": "Dragon Ball Z - Supersonic Warriors",
     "category": "battle",
     "iframe": "https://www.retrogames.cc/embed/19537-dragonball-z-supersonic-warriors-e-rising-sun.html",
-    "thumbnail": "images/Dragon Ball Z - Supersonic Warriors.jpg"
+    "thumbnail": "images/Dragon Ball Z - Supersonic Warriors.jpg",
+    "description":"",
+    "instructions":""
+  },
+  {
+    "id": "game44",
+    "title": "Swat Force Vs Terrorists",
+    "category": "Shooter",
+    "iframe": "https://html5.gamedistribution.com/2f9dfa9aab77466c956de91a9fe1766f/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "https://img.gamedistribution.com/2f9dfa9aab77466c956de91a9fe1766f-512x384.jpg",
+    "description": "**Swat Force Vs Terrorists** là một game bắn súng chiến thuật căng thẳng, nơi người chơi đảm nhận vai trò thành viên đội SWAT tinh nhuệ, tham gia vào các cuộc đối đầu đầy rủi ro với những kẻ khủng bố. Trò chơi nhấn mạnh tinh thần đồng đội và phối hợp chiến thuật, yêu cầu người chơi sử dụng các kỹ năng chống khủng bố chuyên nghiệp cùng trang bị qua nhiều môi trường đô thị phức tạp.",
+    "instructions": "**Di chuyển chuột - Nhìn xung quanh**"
+  },
+  {
+    "id": "game45",
+    "title": "Dan the Man",
+    "category": "Adventure",
+    "iframe": "https://html5.gamedistribution.com/3d11dfed72a04e00ae9a43ab3fd49bd6/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "https://img.gamedistribution.com/3d11dfed72a04e00ae9a43ab3fd49bd6-512x512.jpg",
+    "description": "Với một cốt truyện hài hước bá đạo, những pha hành động mãn nhãn, kỹ năng chiến đấu đỉnh cao có thể nâng cấp và một kho vũ khí đồ sộ đủ để khiến ngay cả những anh hùng kiệt xuất nhất cũng phải ghen tị, cuộc chiến arcade của Dan The Man có đủ số lượng kẻ thù và các trận đấu trùm để làm hài lòng mọi tín đồ Action Platformer cứng cựa nhất và mọi người yêu thích game indie.",
+    "instructions": "Hãy cùng dõi theo cuộc phiêu lưu của Dan trong phần mới của loạt game hoành tráng này. Hãy sẵn sàng hạ gục kẻ địch trong một trong những game platformer retro sử thi nhất từ trước đến nay!"
+  },
+  {
+    "id": "game46",
+    "title": "Idol Livestream: Doll Dress Up",
+    "category": "Dress-up",
+    "iframe": "https://html5.gamedistribution.com/fab4ba7adaf04d8a92905989e85b55c7/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "https://img.gamedistribution.com/fab4ba7adaf04d8a92905989e85b55c7-1280x720.jpg",
+    "description": "Trong *Idol Livestream: Doll Dress Up*, bạn sẽ hóa trang cho búp bê của mình và chuẩn bị để cô ấy lên sóng trực tiếp. Hãy chọn từ nhiều phong cách khác nhau – cô ấy có thể trông như một nàng tiên, diện đồ đường phố năng động, hoặc thử trang phục đi biển. Khi hoàn thành, cô ấy sẽ lên sóng livestream và bắt đầu khoe diện mạo của mình.\n\nBạn có thể tạo kiểu tóc, trang điểm và thử các phụ kiện. Ngoài ra còn có chế độ đấu, nơi bạn so tài với những người chơi khác để xem ai tạo kiểu đẹp nhất.",
+    "instructions": "Here's the translation:\n\n**Phối Đồ:** Chạm hoặc nhấp để chọn trang phục và phối hợp các phong cách.\n**Lên Sóng:** Đưa búp bê của bạn lên sân khấu và xem cô ấy trình diễn.\n**Thi Đấu:** Tham gia các cuộc thi thời trang và bình chọn cho các phong cách.\nKhông áp lực, không giới hạn—hãy thỏa sức thể hiện sự sáng tạo và gu thời trang của bạn."
+  },
+  {
+    "id": "game47",
+    "title": "Anime Doll - DIY Cosplay Girl",
+    "category": "Dress-up",
+    "iframe": "https://html5.gamedistribution.com/e0246907e547406a8b322b7108a7114b/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "https://img.gamedistribution.com/e0246907e547406a8b322b7108a7114b-512x512.jpg",
+    "description": "Hòa mình vào thế giới kỳ diệu của Anime Doll - DIY Cosplay Girl, nơi bạn có thể thỏa sức hiện thực hóa giấc mơ thời trang và trở thành bậc thầy phối đồ Anime!",
+    "instructions": "**Tạo kiểu và Thiết kế:** Trong Anime Doll - DIY Cosplay Girl, bạn sẽ sở hữu một tủ đồ phong phú với trang phục và phụ kiện tuyệt đẹp, giúp bạn tự do tạo phong cách cho búp bê của mình với vô vàn cách phối đồ. Từ những bộ cánh lộng lẫy cho đến trang phục thường ngày sành điệu, bạn sẽ tìm thấy mọi thứ mình cần để thể hiện phong cách độc đáo của riêng mình."
+  },
+  {
+    "id": "game48",
+    "title": "Ultrahero Vs Monsters Royale Battle",
+    "category": "Adventure",
+    "iframe": "https://html5.gamedistribution.com/c17f75ead5b2493fa15db989e8b393ac/?gd_sdk_referrer_url=https://playgame.id.vn",
+    "thumbnail": "https://img.gamedistribution.com/c17f75ead5b2493fa15db989e8b393ac-512x384.jpg",
+    "description": "**Ultrahero Vs Monsters Royale Battle** là một trò chơi hành động chiến đấu, nơi bạn, trong vai một Ultrahero dũng mãnh, sẽ chiến đấu chống lại những đợt quái vật hung ác trong một thế giới 3D. Mỗi trận chiến là một cuộc phiêu lưu mới. Cảm nhận sự kết hợp hoàn hảo giữa lối chơi thủ thành (tower defense) và hành động arcade dồn dập trong trò chơi này. Với vai trò một người hùng, bạn không chỉ phải chiến đấu chống lại quái vật trong những trận chiến hoành tráng mà còn phải sử dụng chiến thuật thủ thành để bảo vệ căn cứ của mình.",
+    "instructions": "**Nhấp chuột hoặc chạm để chơi**"
   }
 ]
-

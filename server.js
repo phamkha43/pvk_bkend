@@ -104,6 +104,6 @@ app.get("/play", checkToken, (req, res) => {
 // Start server
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
-  if (isDev) console.log("⚠️ Running in DEVELOPMENT mode: CORS allows localhost");
 });
+
 

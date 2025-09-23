@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8080;
 // 🔒 Cấu hình CORS
 // Production chỉ cho domain chính thức, localhost cho test
 app.use(cors({
-  origin: "https://playgame.id.vn"
+  origin: ["https://playgame.id.vn"]
 }));
 
 // Lưu token hợp lệ trong RAM
@@ -105,5 +105,6 @@ app.get("/play", checkToken, (req, res) => {
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
 });
+
 
 

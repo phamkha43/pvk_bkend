@@ -9,9 +9,8 @@ const PORT = process.env.PORT || 8080;
 
 // 🔒 Cấu hình CORS
 // Production chỉ cho domain chính thức, localhost cho test
-const isDev = process.env.NODE_ENV !== "production";
 app.use(cors({
-  origin: isDev ? ["http://localhost:8080"] : ["https://playgame.id.vn"]
+  origin: "https://playgame.id.vn"
 }));
 
 // Lưu token hợp lệ trong RAM
@@ -107,3 +106,4 @@ app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
   if (isDev) console.log("⚠️ Running in DEVELOPMENT mode: CORS allows localhost");
 });
+

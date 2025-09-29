@@ -1,7 +1,6 @@
 {
   "name": "webgame",
   "version": "1.0.0",
-  "description": "",
   "keywords": [],
   "license": "ISC",
   "author": "",
@@ -19,5 +18,6 @@
     "jsonstream": "^1.0.3",
     "jsonwebtoken": "^9.0.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "description": ""
 }

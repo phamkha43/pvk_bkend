@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const cors = require("cors");
-
+const dotenv = require("dotenv");
 const app = express();
 const PORT = process.env.PORT || 8080;
 
@@ -105,11 +105,11 @@ app.get("/play", checkToken, (req, res) => {
   `);
 });
 
-const GEMINI_KEYS = fs
-  .readFileSync(path.join(__dirname, "data", "keys.dat"), "utf-8")
-  .split("\n")
-  .map((k) => k.trim())
-  .filter((k) => k.length > 0);
+dotenv.config();
+
+const GEMINI_KEYS = Object.keys(process.env)
+  .filter((k) => k.startsWith("KEY"))
+  .map((k) => process.env[k]);
 
 function getNextKey() {
   // Chọn ngẫu nhiên một key từ danh sách

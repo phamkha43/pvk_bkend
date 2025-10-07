@@ -298,18 +298,18 @@ app.get("/api/translate", checkToken, async (req, res) => {
 // Proxy để trả về URL gốc
 app.get("/api/proxy", checkToken, async (req, res) => {
   const { id } = req.query;
-  console.log(`Proxy request for game title slug: ${id}`);
+  console.log(`Yêu cầu proxy cho slug game: ${id}`);
   const game = games.find((g) => slugify(g.title) === id);
   if (!game) {
-    console.error(`Game not found for title slug: ${id}`);
-    return res.status(404).json({ error: "Game not found" });
+    console.error(`Không tìm thấy game cho slug: ${id}`);
+    return res.status(404).json({ error: "Không tìm thấy game" });
   }
 
   const url = game.url;
-  console.log(`Found game URL: ${url}`);
+  console.log(`Tìm thấy URL game: ${url}`);
   if (!url) {
-    console.error(`Invalid URL: ${url}`);
-    return res.status(400).json({ error: "Invalid URL", details: "No URL provided for the game" });
+    console.error(`URL không hợp lệ: ${url}`);
+    return res.status(400).json({ error: "URL không hợp lệ", details: "Không có URL được cung cấp cho game" });
   }
 
   try {
@@ -317,12 +317,14 @@ app.get("/api/proxy", checkToken, async (req, res) => {
     const tempToken = crypto.randomBytes(16).toString("hex");
     proxyUrls.set(tempToken, url);
     setTimeout(() => proxyUrls.delete(tempToken), 15 * 60 * 1000); // Hết hạn sau 15 phút
-    const proxyUrl = `http://localhost:${PORT}/proxy/${tempToken}`;
-    console.log(`Generated proxy URL: ${proxyUrl}`);
+    // Sử dụng domain công khai từ biến môi trường hoặc mặc định là Render URL
+    const backendUrl = process.env.BACKEND_URL || 'https://pvk-bkend.onrender.com';
+    const proxyUrl = `${backendUrl}/proxy/${tempToken}`;
+    console.log(`Tạo URL proxy: ${proxyUrl}`);
     res.json({ url: proxyUrl });
   } catch (err) {
-    console.error(`Proxy error for ${url}: ${err.message}`);
-    res.status(500).json({ error: "Proxy failed", details: err.message });
+    console.error(`Lỗi proxy cho ${url}: ${err.message}`);
+    res.status(500).json({ error: "Proxy thất bại", details: err.message });
   }
 });
 

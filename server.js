@@ -24,8 +24,12 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 8080;
 
+// Tự động detect backend URL (localhost hoặc production)
+const isLocalhost = process.env.NODE_ENV === "development" || !process.env.BACKEND_URL;
+const BACKEND_URL = isLocalhost ? `http://localhost:${PORT}` : process.env.BACKEND_URL || "https://pvk-bkend.onrender.com";
+
 // Cấu hình CORS
-const allowedOrigins = (process.env.ALLOWED_ORIGINS || "http://localhost:8080,https://playgame.id.vn").split(",");
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || `http://localhost:${PORT},https://playgame.id.vn`).split(",");
 app.use(
   cors({
     origin: (origin, callback) => {
@@ -41,14 +45,14 @@ app.use(
 // Thêm header bảo mật
 app.use((req, res, next) => {
   res.setHeader("X-Frame-Options", "SAMEORIGIN");
-  res.setHeader("Content-Security-Policy", "frame-ancestors 'self' https://playgame.id.vn http://localhost:8080");
+  res.setHeader("Content-Security-Policy", `frame-ancestors 'self' ${allowedOrigins.join(" ")}`);
   next();
 });
 
 // Cấu hình rate limiting
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 phút
-  max: 100, // 100 yêu cầu mỗi IP
+  max: 2000, // 2000 yêu cầu mỗi IP
   message: "Too many requests from this IP, please try again later.",
 });
 app.use("/api/", limiter);
@@ -71,7 +75,7 @@ try {
 function generateToken() {
   const token = crypto.randomBytes(16).toString("hex");
   validTokens.add(token);
-  setTimeout(() => validTokens.delete(token), 5 * 60 * 1000); // Hết hạn sau 5 phút
+  setTimeout(() => validTokens.delete(token), 15 * 60 * 1000); // Hết hạn sau 15 phút
   return token;
 }
 
@@ -92,6 +96,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.get("/api/token", (req, res) => {
   const token = generateToken();
   console.log(`Generated token: ${token}`);
+  res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, private");
   res.json({ token });
 });
 
@@ -99,6 +104,7 @@ app.get("/api/token", (req, res) => {
 app.get("/api/categories", checkToken, (req, res) => {
   try {
     const categories = [...new Set(games.map((g) => g.category))];
+    res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, private");
     res.json(categories);
   } catch (err) {
     console.error("Error fetching categories:", err);
@@ -173,7 +179,7 @@ app.get("/play", checkToken, (req, res) => {
               const gameId = '${slugify(game.title)}';
               console.log('Game ID:', gameId);
               try {
-                const tokenResponse = await fetch('/api/token', {
+                const tokenResponse = await fetch('/api/token?t=${Date.now()}', {
                   headers: { 'Accept': 'application/json' }
                 });
                 if (!tokenResponse.ok) throw new Error('Failed to get token: HTTP ' + tokenResponse.status);
@@ -189,9 +195,13 @@ app.get("/play", checkToken, (req, res) => {
                 if (!proxyResponse.ok) throw new Error('Proxy failed: HTTP ' + proxyResponse.status);
                 const proxyData = await proxyResponse.json();
                 console.log('Proxy response:', proxyData);
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 10000);
                 const urlResponse = await fetch(proxyData.url, {
-                  headers: { 'Accept': 'application/json' }
+                  headers: { 'Accept': 'application/json' },
+                  signal: controller.signal
                 });
+                clearTimeout(timeoutId);
                 if (!urlResponse.ok) throw new Error('Failed to get original URL: HTTP ' + urlResponse.status);
                 const urlData = await urlResponse.json();
                 console.log('Original URL:', urlData.url);
@@ -317,10 +327,9 @@ app.get("/api/proxy", checkToken, async (req, res) => {
     const tempToken = crypto.randomBytes(16).toString("hex");
     proxyUrls.set(tempToken, url);
     setTimeout(() => proxyUrls.delete(tempToken), 15 * 60 * 1000); // Hết hạn sau 15 phút
-    // Sử dụng domain công khai từ biến môi trường hoặc mặc định là Render URL
-    const backendUrl = process.env.BACKEND_URL || 'https://pvk-bkend.onrender.com';
-    const proxyUrl = `${backendUrl}/proxy/${tempToken}`;
+    const proxyUrl = `${BACKEND_URL}/proxy/${tempToken}`; // Sử dụng BACKEND_URL động
     console.log(`Tạo URL proxy: ${proxyUrl}`);
+    res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, private");
     res.json({ url: proxyUrl });
   } catch (err) {
     console.error(`Lỗi proxy cho ${url}: ${err.message}`);
@@ -342,6 +351,7 @@ app.get("/proxy/:token", async (req, res) => {
   }
 
   console.log(`Serving original URL for token: ${token}, URL: ${originalUrl}`);
+  res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, private");
   res.json({ url: originalUrl });
 });
 
@@ -353,5 +363,5 @@ app.use((err, req, res, next) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`✅ Server running at http://localhost:${PORT}`);
+  console.log(`✅ Server running at ${BACKEND_URL}`);
 });

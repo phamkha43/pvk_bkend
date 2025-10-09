@@ -18,25 +18,30 @@ function slugify(text) {
     .replace(/^-+|-+$/g, "");
 }
 
-// Khởi tạo dotenv
+// Khởi tạo dotenv (chỉ chứa key Gemini)
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-// Tự động detect backend URL (localhost hoặc production)
-const isLocalhost = !process.env.BACKEND_URL || process.env.NODE_ENV === "development";
-const BACKEND_URL = isLocalhost ? `http://localhost:${PORT}` : process.env.BACKEND_URL || "https://pvk-bkend.onrender.com";
+// Tự động detect môi trường và set BACKEND_URL
+const isLocalhost = process.env.NODE_ENV === "development" || process.env.NODE_ENV === undefined;
+const BACKEND_URL = isLocalhost ? `http://localhost:${PORT}` : "https://pvk-bkend.onrender.com";
 console.log(`BACKEND_URL set to: ${BACKEND_URL}`);
 
+// Hardcode ALLOWED_ORIGINS (do .env chỉ chứa key Gemini)
+const ALLOWED_ORIGINS = isLocalhost
+  ? ["http://localhost:8080", "http://localhost:3000", "https://playgame.id.vn"]
+  : ["https://playgame.id.vn"];
+
 // Cấu hình CORS
-const allowedOrigins = (process.env.ALLOWED_ORIGINS || `http://localhost:${PORT},https://playgame.id.vn`).split(",");
 app.use(
   cors({
     origin: (origin, callback) => {
-      if (!origin || allowedOrigins.includes(origin)) {
+      if (!origin || ALLOWED_ORIGINS.includes(origin)) {
         callback(null, true);
       } else {
+        console.error(`CORS error: Origin ${origin} not allowed`);
         callback(new Error(`CORS error: Origin ${origin} not allowed`));
       }
     },
@@ -46,7 +51,7 @@ app.use(
 // Thêm header bảo mật
 app.use((req, res, next) => {
   res.setHeader("X-Frame-Options", "SAMEORIGIN");
-  res.setHeader("Content-Security-Policy", `frame-ancestors 'self' ${allowedOrigins.join(" ")}`);
+  res.setHeader("Content-Security-Policy", `frame-ancestors 'self' ${ALLOWED_ORIGINS.join(" ")}`);
   next();
 });
 

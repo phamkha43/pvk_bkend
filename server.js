@@ -25,8 +25,9 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // Tự động detect backend URL (localhost hoặc production)
-const isLocalhost = process.env.NODE_ENV === "development" || !process.env.BACKEND_URL;
+const isLocalhost = !process.env.BACKEND_URL || process.env.NODE_ENV === "development";
 const BACKEND_URL = isLocalhost ? `http://localhost:${PORT}` : process.env.BACKEND_URL || "https://pvk-bkend.onrender.com";
+console.log(`BACKEND_URL set to: ${BACKEND_URL}`);
 
 // Cấu hình CORS
 const allowedOrigins = (process.env.ALLOWED_ORIGINS || `http://localhost:${PORT},https://playgame.id.vn`).split(",");
@@ -36,7 +37,7 @@ app.use(
       if (!origin || allowedOrigins.includes(origin)) {
         callback(null, true);
       } else {
-        callback(new Error("Not allowed by CORS"));
+        callback(new Error(`CORS error: Origin ${origin} not allowed`));
       }
     },
   })
@@ -327,7 +328,7 @@ app.get("/api/proxy", checkToken, async (req, res) => {
     const tempToken = crypto.randomBytes(16).toString("hex");
     proxyUrls.set(tempToken, url);
     setTimeout(() => proxyUrls.delete(tempToken), 15 * 60 * 1000); // Hết hạn sau 15 phút
-    const proxyUrl = `${BACKEND_URL}/proxy/${tempToken}`; // Sử dụng BACKEND_URL động
+    const proxyUrl = `${BACKEND_URL}/proxy/${tempToken}`;
     console.log(`Tạo URL proxy: ${proxyUrl}`);
     res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, private");
     res.json({ url: proxyUrl });

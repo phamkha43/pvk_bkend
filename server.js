@@ -22,6 +22,7 @@ function slugify(text) {
 dotenv.config();
 
 const app = express();
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 8080;
 
 // Tự động detect môi trường và set BACKEND_URL

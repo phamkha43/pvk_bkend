@@ -58,7 +58,7 @@ app.use((req, res, next) => {
 // Cấu hình rate limiting
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 phút
-  max: 5000, // 5000 yêu cầu mỗi IP
+  max: 100000, // 5000 yêu cầu mỗi IP
   message: "Too many requests from this IP, please try again later.",
 });
 app.use("/api/", limiter);
